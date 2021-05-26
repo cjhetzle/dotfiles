@@ -31,7 +31,7 @@ if ask "Install symlink for .zshrc?" Y; then
 fi
 
 if ask "Insall symlink for .config/i3?" Y; then
-  ln -sf ${dir}/.i3 ${HOME}/.config/i3
+  ln -sfn ${dir}/.config/i3 ${HOME}/.config/i3
 fi
 
 if ask "Install symlink for .config/nvim?" Y; then
