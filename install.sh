@@ -30,6 +30,10 @@ if ask "Install symlink for .zshrc?" Y; then
   ln -sf ${dir}/.aliases.sh ${HOME}/.aliases.sh
 fi
 
+if ask "Insall symlink for .config/i3?" Y; then
+  ln -sf ${dir}/.i3 ${HOME}/.config/i3
+fi
+
 if ask "Install symlink for .config/nvim?" Y; then
   ln -sfn ${dir}/.config/nvim ${HOME}/.config/nvim
 fi

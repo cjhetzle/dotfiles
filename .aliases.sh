@@ -31,5 +31,5 @@ alias getclip='xclip -selection clipboard -o'
 alias l="ls -o -hX --group-directories-first"
 alias la="ls -o -AhX --group-directories-first"
 alias j="jump"
-alias v='nvim'
-alias vim='nvim'
+alias v='vim'
+alias vim='vim'
